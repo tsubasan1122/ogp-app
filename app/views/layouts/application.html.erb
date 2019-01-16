@@ -11,6 +11,17 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg bg-2 navbar-light header">
+      <div class="container">
+        <a class="navbar-brand" href="/jobs">Techpit Job</a>
+        <% if user_signed_in? %>
+          <div class="my-2 my-lg-0">
+            <!-- ========== link_toメソッドを使ってログアウト用のリンクを用意 ========== -->
+            <%= link_to 'ログアウト', destroy_user_session_path, class: "no-text-decoration", method: :delete %>
+          </div>
+        <% end %>
+      </div>
+    </nav>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= yield %>
