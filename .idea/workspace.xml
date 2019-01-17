@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7941d9c1-af20-4fc3-953f-9af0dab1b64a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/initializers/i18n.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/devise.ja.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/ja.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/jobs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/jobs_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -37,7 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="5" />
+          <entry key="Gemfile" value="6" />
           <entry key="Rakefile" value="3" />
           <entry key="css" value="3" />
           <entry key="erb" value="23" />
@@ -56,16 +51,16 @@
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="2" />
           <entry key="RHTML" value="23" />
-          <entry key="Ruby" value="53" />
+          <entry key="Ruby" value="54" />
           <entry key="SCSS" value="2" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="151" />
+          <entry key="Gemfile" value="181" />
           <entry key="css" value="13" />
-          <entry key="erb" value="5100" />
+          <entry key="erb" value="5152" />
           <entry key="js" value="115" />
           <entry key="md" value="38" />
           <entry key="rb" value="3465" />
@@ -77,8 +72,8 @@
           <entry key="CSS" value="13" />
           <entry key="JavaScript" value="115" />
           <entry key="Markdown" value="38" />
-          <entry key="RHTML" value="5100" />
-          <entry key="Ruby" value="3616" />
+          <entry key="RHTML" value="5152" />
+          <entry key="Ruby" value="3646" />
           <entry key="SCSS" value="16" />
         </counts>
       </usages-collector>
@@ -95,14 +90,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="194">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -119,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/jobs/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="165">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -148,6 +152,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>secureRandom</find>
+      <find>clip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,7 +193,6 @@
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/jobs/new.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/homes/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/job.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -202,6 +206,7 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/jobs_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -651,12 +656,12 @@
       <workItem from="1547312827178" duration="179000" />
       <workItem from="1547487586162" duration="175000" />
       <workItem from="1547566230326" duration="338000" />
-      <workItem from="1547623024996" duration="9394000" />
+      <workItem from="1547623024996" duration="10145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29670000" />
+    <option name="totallyTimeSpent" value="30421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -785,13 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -889,18 +887,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/jobs/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="165">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="194">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
         </state>
       </provider>
     </entry>
