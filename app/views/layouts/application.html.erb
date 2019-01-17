@@ -27,5 +27,27 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= yield %>
+    <script type="text/javascript" charset="utf-8">
+      $('.url-text').text(document.URL);
+
+      function clipURL(){
+        $('body').append('<textarea id="currentURL" style="position:fixed; left: -100%">'+ location.href + '</textarea>');
+
+        $('#currentURL').select();
+
+        document.execCommand('copy');
+
+        $('#currentURL').remove();
+
+        alert("URLをコピーしました");
+
+      }
+
+      var text = $('.card-title').text();
+
+      var twitterurl = "https://twitter.com/intent/tweet?url=" + document.URL + "&text=" + text + "&hashtags=#テックピット";
+
+      $('.btn-tw').attr('href',twitterurl);
+    </script>
   </body>
 </html>

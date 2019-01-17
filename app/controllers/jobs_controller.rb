@@ -1,5 +1,6 @@
 class JobsController < ApplicationController
   before_action :authenticate_user!, expect: :show
+
   def index
     @jobs = Job.all.includes(:user).where(user_id: current_user.id)
     @entries = Entry.all.includes(:user, :job)
